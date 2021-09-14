@@ -1,4 +1,5 @@
 class Task {
+  //TODO Add local storage.
   final String name;
   bool isDone;
 
