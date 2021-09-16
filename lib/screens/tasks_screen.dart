@@ -10,7 +10,6 @@ class TasksScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.lightGreen[800],
       floatingActionButton: FloatingActionButton(
-        //TODO fix position of a button. You can't see last checkbox in a list.
         backgroundColor: Colors.lightGreen[800],
         child: Icon(
           Icons.add,
@@ -25,6 +24,7 @@ class TasksScreen extends StatelessWidget {
           );
         },
       ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
